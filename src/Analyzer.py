@@ -4,7 +4,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 ## Load and basic cleaning
-df = pd.read_csv('netflix_titles.csv')
+df = pd.read_csv('Netflix_Movies_and_TV_Shows.csv')
 
 ### 1. Handle Missing Values
 df['country'] = df['country'].fillna('Unknown')
